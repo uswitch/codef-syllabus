@@ -42,6 +42,12 @@ It should print some information, but a basic site is now generated.
 ## GitKraken
 Open your GitKraken.
 
+It'll ask some irrelevant info, like picking an avatar, or your name. Fill in whatever you want, they don't have to be your real details.
+
+Say no to the paid version or trial of the Pro version, the free version is actually free.
+
+You should be greeted with the home screen.
+
 ![Kraken](kraken-0.png)
 
 Pick `Start a local repo`
