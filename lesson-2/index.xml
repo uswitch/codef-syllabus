@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lesson 2 on Welcome to CodeF</title>
+    <link>https://example.com/lesson-2/</link>
+    <description>Recent content in Lesson 2 on Welcome to CodeF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 10 Jun 2020 16:40:26 +0100</lastBuildDate>
+    
+	<atom:link href="https://example.com/lesson-2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Html</title>
+      <link>https://example.com/lesson-2/html/</link>
+      <pubDate>Wed, 10 Jun 2020 15:48:57 +0100</pubDate>
+      
+      <guid>https://example.com/lesson-2/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://example.com/lesson-2/markdown/</link>
+      <pubDate>Wed, 10 Jun 2020 15:48:44 +0100</pubDate>
+      
+      <guid>https://example.com/lesson-2/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theme</title>
+      <link>https://example.com/lesson-2/theme/</link>
+      <pubDate>Wed, 10 Jun 2020 15:48:29 +0100</pubDate>
+      
+      <guid>https://example.com/lesson-2/theme/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

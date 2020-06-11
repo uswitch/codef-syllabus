@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I&#39;ll be your guide on Welcome to CodeF</title>
+    <link>https://example.com/</link>
+    <description>Recent content in I&#39;ll be your guide on Welcome to CodeF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 10 Jun 2020 16:51:36 +0100</lastBuildDate>
+    
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Showcase</title>
+      <link>https://example.com/lesson-5/showcase/</link>
+      <pubDate>Wed, 10 Jun 2020 15:50:16 +0100</pubDate>
+      
+      <guid>https://example.com/lesson-5/showcase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Css</title>
+      <link>https://example.com/lesson-4/css/</link>
+      <pubDate>Wed, 10 Jun 2020 15:50:00 +0100</pubDate>
+      
+      <guid>https://example.com/lesson-4/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Themes Work</title>
+      <link>https://example.com/lesson-4/how-themes-work/</link>
+      <pubDate>Wed, 10 Jun 2020 15:49:55 +0100</pubDate>
+      
+      <guid>https://example.com/lesson-4/how-themes-work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Templating &amp; Variables</title>
+      <link>https://example.com/lesson-3/templating-variables/</link>
+      <pubDate>Wed, 10 Jun 2020 15:49:27 +0100</pubDate>
+      
+      <guid>https://example.com/lesson-3/templating-variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Netlify</title>
+      <link>https://example.com/lesson-3/netlify/</link>
+      <pubDate>Wed, 10 Jun 2020 15:49:11 +0100</pubDate>
+      
+      <guid>https://example.com/lesson-3/netlify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>https://example.com/lesson-2/html/</link>
+      <pubDate>Wed, 10 Jun 2020 15:48:57 +0100</pubDate>
+      
+      <guid>https://example.com/lesson-2/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://example.com/lesson-2/markdown/</link>
+      <pubDate>Wed, 10 Jun 2020 15:48:44 +0100</pubDate>
+      
+      <guid>https://example.com/lesson-2/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theme</title>
+      <link>https://example.com/lesson-2/theme/</link>
+      <pubDate>Wed, 10 Jun 2020 15:48:29 +0100</pubDate>
+      
+      <guid>https://example.com/lesson-2/theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Site</title>
+      <link>https://example.com/lesson-1/new-site/</link>
+      <pubDate>Wed, 10 Jun 2020 15:47:47 +0100</pubDate>
+      
+      <guid>https://example.com/lesson-1/new-site/</guid>
+      <description>Generating a new site Serving it Adding a theme It&amp;rsquo;s responsive Where to get help </description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>https://example.com/lesson-1/setup/</link>
+      <pubDate>Wed, 10 Jun 2020 15:45:57 +0100</pubDate>
+      
+      <guid>https://example.com/lesson-1/setup/</guid>
+      <description>Where to find this site This is the &amp;ldquo;official&amp;rdquo; course website. All the material we go through will be on this site, as will links to all tools and products used in this course.
+We&amp;rsquo;ve tried to design this course to be open-ended, so that if some of you have the time and desire to explore further, you can. Most topics will have suggestions for extra activities and options to expand, however, none of these will be assumed in further lessons.</description>
+    </item>
+    
+  </channel>
+</rss>
