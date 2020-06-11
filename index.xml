@@ -89,7 +89,9 @@
       <pubDate>Wed, 10 Jun 2020 15:47:47 +0100</pubDate>
       
       <guid>https://uswitch.github.io/codef-syllabus/lesson-1/new-site/</guid>
-      <description>Generating a new site Serving it Adding a theme It&amp;rsquo;s responsive Where to get help </description>
+      <description>Creating your first website Windows Please create a folder named Sites in C:\Hugo, i.e., when you&amp;rsquo;re done, you should have a structure like C: &amp;gt; Hugo &amp;gt; Sites. There will be 2 folders in C:\Hugo named Sites and bin.
+TODO screenshots
+Navigate to the newly created Sites folder. Then click the line with the folder list, it should turn editable. Type in powershell and press Enter. You should see a terminal window appear.</description>
     </item>
     
     <item>

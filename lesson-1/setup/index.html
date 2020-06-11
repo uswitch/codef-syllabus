@@ -40,7 +40,7 @@ We&rsquo;ve tried to design this course to be open-ended, so that if some of you
 We&rsquo;ve tried to design this course to be open-ended, so that if some of you have the time and desire to explore further, you can. Most topics will have suggestions for extra activities and options to expand, however, none of these will be assumed in further lessons.">
 <meta itemprop="datePublished" content="2020-06-10T15:45:57&#43;01:00" />
 <meta itemprop="dateModified" content="2020-06-10T15:45:57&#43;01:00" />
-<meta itemprop="wordCount" content="1436">
+<meta itemprop="wordCount" content="922">
 
 
 
@@ -190,6 +190,7 @@ We&rsquo;ve tried to design this course to be open-ended, so that if some of you
 <p>We&rsquo;ve tried to design this course to be open-ended, so that if some of you have the time and desire to explore further, you can. Most topics will have suggestions for extra activities and options to expand, however, none of these will be assumed in further lessons.</p>
 <p>If at any point you&rsquo;re struggling, ask for help. The lessons are aimed to be medium pace, but we&rsquo;re definitely not leaving anyone behind, and we have people who are specifically here to help you. Please let us know as soon as possible if something is not working as described.</p>
 <p>We will need some tools and accounts for this course.</p>
+<p>This site is largely made using the technologies explored in this course, and the source code for it can be freely explored <a href="https://github.com/uswitch/codef-syllabus/">on Github</a>.</p>
 <h1 id="assumptions">Assumptions</h1>
 <p>We&rsquo;ve tried to specifically <strong>not</strong> make any assumptions about your individual setups, but everyone&rsquo;s computer is different.</p>
 <p>We&rsquo;ve given instructions for Windows &amp; macOS, for our recommended tools.</p>
@@ -259,81 +260,6 @@ The implication here is that if you make a mistake, you can easily revert that m
 </code></pre><h2 id="linux">Linux</h2>
 <p>It should be present in your package manager.</p>
 <p>If not, Hugo is a Go binary with no dependencies, you can literally download the latest <a href="https://github.com/gohugoio/hugo/releases">release</a>, and put it somewhere in your PATH. <code>/usr/local/bin/</code> might be a good quick option.</p>
-<h1 id="creating-your-first-website">Creating your first website</h1>
-<h2 id="windows-1">Windows</h2>
-<p>Please create a folder named <code>Sites</code> in <code>C:\Hugo</code>, i.e., when you&rsquo;re done, you should have a structure like <code>C: &gt; Hugo &gt; Sites</code>. There will be 2 folders in <code>C:\Hugo</code> named <code>Sites</code> and <code>bin</code>.</p>
-<p>TODO screenshots</p>
-<p>Navigate to the newly created <code>Sites</code> folder. Then click the line with the folder list, it should turn editable. Type in <code>powershell</code> and press Enter. You should see a terminal window appear.</p>
-<h2 id="macos-1">macOS</h2>
-<p>Please create a folder named <code>Sites</code> in your home directory. You can use Finder to do this.</p>
-<p>Open a Terminal app. You can do this via your launcher, e.g., Cmd+Space, then type in <code>Terminal</code> and press Enter.</p>
-<p>Type in <code>cd ~/Sites</code></p>
-<h2 id="generating-a-basic-site">Generating a basic site</h2>
-<p>On either platform, in your terminal type in</p>
-<pre><code>hugo new site my-codef-site
-</code></pre><p>It should print some information, but a basic site is now generated.</p>
-<h1 id="sending-the-site-to-github">Sending the site to Github</h1>
-<h2 id="gitkraken">GitKraken</h2>
-<p>Open your GitKraken.</p>
-<p><img src="/images/lesson-1/kraken-0.png" alt="Kraken"></p>
-<p>Pick <code>Start a local repo</code></p>
-<p><img src="/images/lesson-1/kraken-1.png" alt="Kraken"></p>
-<p>Select the <code>Init</code> tab. Fill in</p>
-<ul>
-<li><code>my-codef-site</code> for <code>Name</code></li>
-<li>find your <code>Sites</code> folder for the <code>Initialize in</code></li>
-</ul>
-<p><img src="/images/lesson-1/kraken-2.png" alt="Kraken"></p>
-<p>Click <code>Create Repository</code>.</p>
-<p>You should see a window with some bubbles saying <code>master</code> and <code>Initial commit</code>.</p>
-<p><img src="/images/lesson-1/kraken-3.png" alt="Kraken"></p>
-<p>This should open a window with some blue bubbles, saying <code>master</code> and <code>Initial commit</code>.</p>
-<p>We now want to replicate this to Github. To do this, we</p>
-<ul>
-<li>find the section on the left that says <code>Remote</code></li>
-<li>click the green <code>+</code> sign</li>
-</ul>
-<p><img src="/images/lesson-1/kraken-4.png" alt="Kraken"></p>
-<p>Choose <code>Github</code>. Leave all values as is and just click <code>Create remote and push local refs</code></p>
-<p><img src="/images/lesson-1/kraken-5.png" alt="Kraken"></p>
-<p>In a short while it should show a success message</p>
-<p><img src="/images/lesson-1/kraken-6.png" alt="Kraken"></p>
-<h1 id="adding-a-basic-theme">Adding a basic theme</h1>
-<p>For Hugo to display any content for your site, we need to pick a &ldquo;theme&rdquo;. A theme determines <em>how</em> Hugo displays your content.</p>
-<p>We&rsquo;ll explore themes in more detail later, but for now let&rsquo;s add the <em>Ananke</em> theme to our site so we can see it.</p>
-<p>In GitKraken, find the <code>Submodules</code> section on the left side, and click the <code>+</code> button.</p>
-<p><img src="/images/lesson-1/kraken-7.png" alt="Kraken"></p>
-<p>Input <code>https://github.com/budparr/gohugo-theme-ananke.git</code> for <code>Remote URL</code> and <code>themes/ananke</code> for <code>Name/Path</code>.</p>
-<p><img src="/images/lesson-1/kraken-8.png" alt="Kraken"></p>
-<p>Click <code>Add submodule</code>, you&rsquo;ll see some progress animations, and ultimately a success message.</p>
-<p><img src="/images/lesson-1/kraken-9.png" alt="Kraken"></p>
-<p>Then navigate to your site&rsquo;s folder, go to <code>theme &gt; ananke &gt; exampleSite</code>, and copy the file named <code>config.toml</code> to your site&rsquo;s folder.</p>
-<p>Finally, start Sublime. Pick <code>File &gt; Open Folder</code>, and find the folder your site is in (<code>C:\Hugo\Sites\my-codef-site</code> for Windows and <code>Sites/my-codef-site</code> for Mac).</p>
-<p>You should see Sublime open up a folder structure, listing all the files.</p>
-<p><img src="/images/lesson-1/sublime-0.png" alt="Kraken"></p>
-<p>Find and open the <code>config.toml</code> file you just created.</p>
-<p>We&rsquo;re interested in changing 2 lines here.</p>
-<p><img src="/images/lesson-1/sublime-1.png" alt="Kraken"></p>
-<ul>
-<li>we need to change <code>theme = &quot;gohugo-theme-ananke&quot;</code> to <code>theme = &quot;ananke&quot;</code></li>
-<li>and <code>themesDir = &quot;../..&quot;</code> to <code>themesDir = &quot;themes&quot;</code></li>
-</ul>
-<p><img src="/images/lesson-1/sublime-2.png" alt="Kraken"></p>
-<p>Save the file.</p>
-<h1 id="seeing-your-website">Seeing your website</h1>
-<p>Switch back to your terminal window.</p>
-<p>Enter</p>
-<pre><code>cd my-codef-site
-</code></pre><p>followed by</p>
-<pre><code>hugo server -D
-</code></pre><p>You should now have a <a href="http://localhost:1313">running website</a>.</p>
-<h1 id="further-reading">Further reading</h1>
-<p>Everything past this point is optional, and these are just some topics for further exploration.</p>
-<h2 id="sublime-plugins">Sublime plugins</h2>
-<p>Sublime supports a wide, wide array of plugins. There is one for Hugo as well, feel free to <a href="https://github.com/akmittal/Hugofy-sublime">install it</a> and play around.</p>
-<h2 id="git-tutorial">Git tutorial</h2>
-<p>Github has an <strong>extensive</strong> set of guides on what Git is, and how to use it. A good starting point that covers the basics is their <a href="https://guides.github.com/introduction/git-handbook/">Git handbook</a></p>
-<h1 id="extra-work">Extra work</h1>
 <ul class="pa0">
   
 </ul>
