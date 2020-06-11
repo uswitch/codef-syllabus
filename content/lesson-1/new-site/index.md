@@ -9,9 +9,17 @@ draft: true
 ## Windows
 Please create a folder named `Sites` in `C:\Hugo`, i.e., when you're done, you should have a structure like `C: > Hugo > Sites`. There will be 2 folders in `C:\Hugo` named `Sites` and `bin`.
 
-TODO screenshots
+Navigate to the newly created `Sites` folder. Then click the line with the folder list, it should turn editable. 
 
-Navigate to the newly created `Sites` folder. Then click the line with the folder list, it should turn editable. Type in `powershell` and press Enter. You should see a terminal window appear.
+![Kraken](hugo-8.png)
+
+Type in `powershell` and press Enter. 
+
+![Kraken](hugo-9.png)
+
+You should see a terminal window appear.
+
+![Kraken](hugo-10.png)
 
 ## macOS
 Please create a folder named `Sites` in your home directory. You can use Finder to do this.
