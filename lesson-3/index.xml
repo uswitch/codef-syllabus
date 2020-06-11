@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lesson 3 on Welcome to CodeF</title>
-    <link>https://uswitch.github.io/codef-syllabus/lesson-3/</link>
+    <link>https://example.com/lesson-3/</link>
     <description>Recent content in Lesson 3 on Welcome to CodeF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 10 Jun 2020 16:40:48 +0100</lastBuildDate>
     
-	<atom:link href="https://uswitch.github.io/codef-syllabus/lesson-3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/lesson-3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Templating &amp; Variables</title>
-      <link>https://uswitch.github.io/codef-syllabus/lesson-3/templating-variables/</link>
+      <link>https://example.com/lesson-3/templating-variables/</link>
       <pubDate>Wed, 10 Jun 2020 15:49:27 +0100</pubDate>
       
-      <guid>https://uswitch.github.io/codef-syllabus/lesson-3/templating-variables/</guid>
+      <guid>https://example.com/lesson-3/templating-variables/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Netlify</title>
-      <link>https://uswitch.github.io/codef-syllabus/lesson-3/netlify/</link>
+      <link>https://example.com/lesson-3/netlify/</link>
       <pubDate>Wed, 10 Jun 2020 15:49:11 +0100</pubDate>
       
-      <guid>https://uswitch.github.io/codef-syllabus/lesson-3/netlify/</guid>
+      <guid>https://example.com/lesson-3/netlify/</guid>
       <description></description>
     </item>
     

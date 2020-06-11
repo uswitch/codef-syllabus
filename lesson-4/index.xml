@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lesson 4 on Welcome to CodeF</title>
-    <link>https://uswitch.github.io/codef-syllabus/lesson-4/</link>
+    <link>https://example.com/lesson-4/</link>
     <description>Recent content in Lesson 4 on Welcome to CodeF</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 10 Jun 2020 16:40:51 +0100</lastBuildDate>
     
-	<atom:link href="https://uswitch.github.io/codef-syllabus/lesson-4/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/lesson-4/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Css</title>
-      <link>https://uswitch.github.io/codef-syllabus/lesson-4/css/</link>
+      <link>https://example.com/lesson-4/css/</link>
       <pubDate>Wed, 10 Jun 2020 15:50:00 +0100</pubDate>
       
-      <guid>https://uswitch.github.io/codef-syllabus/lesson-4/css/</guid>
+      <guid>https://example.com/lesson-4/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How Themes Work</title>
-      <link>https://uswitch.github.io/codef-syllabus/lesson-4/how-themes-work/</link>
+      <link>https://example.com/lesson-4/how-themes-work/</link>
       <pubDate>Wed, 10 Jun 2020 15:49:55 +0100</pubDate>
       
-      <guid>https://uswitch.github.io/codef-syllabus/lesson-4/how-themes-work/</guid>
+      <guid>https://example.com/lesson-4/how-themes-work/</guid>
       <description></description>
     </item>
     

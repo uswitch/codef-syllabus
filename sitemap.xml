@@ -3,125 +3,125 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/</loc>
+    <loc>https://example.com/</loc>
     <lastmod>2020-06-10T16:51:36+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-5/</loc>
+    <loc>https://example.com/lesson-5/</loc>
     <lastmod>2020-06-10T16:40:54+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-4/</loc>
+    <loc>https://example.com/lesson-4/</loc>
     <lastmod>2020-06-10T16:40:51+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-3/</loc>
+    <loc>https://example.com/lesson-3/</loc>
     <lastmod>2020-06-10T16:40:48+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-2/</loc>
+    <loc>https://example.com/lesson-2/</loc>
     <lastmod>2020-06-10T16:40:26+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-1/</loc>
+    <loc>https://example.com/lesson-1/</loc>
     <lastmod>2020-06-10T16:35:57+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-5/showcase/</loc>
+    <loc>https://example.com/lesson-5/showcase/</loc>
     <lastmod>2020-06-10T15:50:16+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-4/css/</loc>
+    <loc>https://example.com/lesson-4/css/</loc>
     <lastmod>2020-06-10T15:50:00+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-4/how-themes-work/</loc>
+    <loc>https://example.com/lesson-4/how-themes-work/</loc>
     <lastmod>2020-06-10T15:49:55+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-3/templating-variables/</loc>
+    <loc>https://example.com/lesson-3/templating-variables/</loc>
     <lastmod>2020-06-10T15:49:27+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-3/netlify/</loc>
+    <loc>https://example.com/lesson-3/netlify/</loc>
     <lastmod>2020-06-10T15:49:11+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-2/html/</loc>
+    <loc>https://example.com/lesson-2/html/</loc>
     <lastmod>2020-06-10T15:48:57+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-2/markdown/</loc>
+    <loc>https://example.com/lesson-2/markdown/</loc>
     <lastmod>2020-06-10T15:48:44+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-2/theme/</loc>
+    <loc>https://example.com/lesson-2/theme/</loc>
     <lastmod>2020-06-10T15:48:29+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-1/new-site/</loc>
+    <loc>https://example.com/lesson-1/new-site/</loc>
     <lastmod>2020-06-10T15:47:47+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/lesson-1/setup/</loc>
+    <loc>https://example.com/lesson-1/setup/</loc>
     <lastmod>2020-06-10T15:45:57+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/categories/</loc>
+    <loc>https://example.com/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://uswitch.github.io/codef-syllabus/tags/</loc>
+    <loc>https://example.com/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
