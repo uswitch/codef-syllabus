@@ -29,22 +29,25 @@
     
     
     <meta property="og:title" content="Markdown" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="Let&rsquo;s make some content Hugo is pretty loose about its expectations, but it does require some structure. That structure somewhat also depends on the theme used, and advanced users can tweak the theme and content locations. We&rsquo;re using the ananke theme, and the constraints are as follows:
+ All content lives in the content/ folder All top level content is list pages, i.e., &ldquo;content categories&rdquo;, i.e., folders All 2nd level content is &ldquo;sections&rdquo;, i." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://uswitch.github.io/codef-syllabus/lesson-2/markdown/" />
 <meta property="article:published_time" content="2020-06-10T15:48:44+01:00" />
 <meta property="article:modified_time" content="2020-06-10T15:48:44+01:00" />
 <meta itemprop="name" content="Markdown">
-<meta itemprop="description" content="">
+<meta itemprop="description" content="Let&rsquo;s make some content Hugo is pretty loose about its expectations, but it does require some structure. That structure somewhat also depends on the theme used, and advanced users can tweak the theme and content locations. We&rsquo;re using the ananke theme, and the constraints are as follows:
+ All content lives in the content/ folder All top level content is list pages, i.e., &ldquo;content categories&rdquo;, i.e., folders All 2nd level content is &ldquo;sections&rdquo;, i.">
 <meta itemprop="datePublished" content="2020-06-10T15:48:44&#43;01:00" />
 <meta itemprop="dateModified" content="2020-06-10T15:48:44&#43;01:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="841">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Markdown"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="Let&rsquo;s make some content Hugo is pretty loose about its expectations, but it does require some structure. That structure somewhat also depends on the theme used, and advanced users can tweak the theme and content locations. We&rsquo;re using the ananke theme, and the constraints are as follows:
+ All content lives in the content/ folder All top level content is list pages, i.e., &ldquo;content categories&rdquo;, i.e., folders All 2nd level content is &ldquo;sections&rdquo;, i."/>
 
 	
   </head>
@@ -182,7 +185,129 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><ul class="pa0">
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="lets-make-some-content">Let&rsquo;s make some content</h1>
+<p>Hugo is pretty loose about its expectations, but it does require <em>some</em> structure. That structure somewhat also depends on the theme used, and advanced users can tweak the theme and content locations. We&rsquo;re using the <code>ananke</code> theme, and the constraints are as follows:</p>
+<ol>
+<li>All content lives in the <code>content/</code> folder</li>
+<li>All top level content is list pages, i.e., &ldquo;content categories&rdquo;, i.e., folders</li>
+<li>All 2nd level content is &ldquo;sections&rdquo;, i.e., a folder with an <code>index.md</code> file, or a single file</li>
+</ol>
+<p>In practice this means that we want a structure like</p>
+<pre><code>content
+├── _index.md
+├── my-hamsters
+│   ├── julio.md
+│   └── sergio
+│       ├── index.md
+│       ├── pic1.jpg
+│       └── pic2.jpg
+└── posts
+    ├── my-first-post.md
+    └── my-second-post
+        └── index.md
+</code></pre><p>For pages that list other pages, e.g., the home page or any of the &ldquo;categories&rdquo;, you can add an <code>_index.md</code> file to provide the main content.</p>
+<p>You can read more about <em>Content Sections</em> on the <a href="https://gohugo.io/content-management/sections/">Hugo site</a>.</p>
+<p>We&rsquo;ll need to open a Terminal window in our site directory again. We did this yesterday, but as a reminder:</p>
+<ul>
+<li>for Windows, go to your site&rsquo;s folder in <code>File Explorer</code>, click the bar at the top with the folder names, type in <code>powershell</code>, press Enter</li>
+<li>for Mac, use your launcher, Cmd+Space, type <code>Terminal</code>, press Enter, type in <code>cd ~/Sites/my-codef-site</code></li>
+</ul>
+<p>Now type in</p>
+<pre><code>hugo new _index.md
+</code></pre><p>This should get us a homepage.</p>
+<p>We&rsquo;ve used <code>_index.md</code> because we want the homepage to link to other content sections we make later.</p>
+<p>You can now open the file found in <code>content/_index.md</code> in your editor. You should see an empty file with some odd looking text.</p>
+<p><img src="sublime-0.png" alt="Sublime"></p>
+<h2 id="front-matter">Front matter</h2>
+<p>The bit at the top inside the 2 dashed lines is called &ldquo;front matter&rdquo;. This contains all the meta information about your page, like the date the page was created, whether the page is published or still a draft, the title, and potentially some information used by your theme of choice too.</p>
+<p>None of this gets directly rendered on the page, this is mostly administrative info. Some of it appears in other places in the browser, e.g., the <code>title</code> shows in the name of your browser tab / window.</p>
+<p>We can put a name for our page in the <code>title</code> field.</p>
+<p>Further documentation is on the <a href="https://gohugo.io/content-management/front-matter/">Hugo website</a>.</p>
+<h2 id="markdown">Markdown</h2>
+<p>Markdown is a type of format for text, it&rsquo;s designed to</p>
+<ul>
+<li>be easy to use</li>
+<li>allow formatting of text in plain text</li>
+</ul>
+<p>Markdown is intended primarily for the web, though there is definitely software out there that can convert it directly into, e.g., a PDF file.</p>
+<p>Markdown has a few core concepts you can use to format your content. The capabilities are similar to programs like Word and Google Docs.</p>
+<h3 id="headers">Headers</h3>
+<p>Text on a new line that starts with one or more <code>#</code> is a header.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"># Title title
+content content content
+</code></pre></div><h3 id="emphasis">Emphasis</h3>
+<p>Text enclosed in a single <code>_</code> or <code>*</code> is <em>Italic</em>.</p>
+<p>Text enclosed in two <code>__</code> or <code>**</code> is <strong>bold</strong>.</p>
+<p>You can <em><strong>mix and match</strong></em>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">Text enclosed in a single <span style="color:#e6db74">`_`</span> or <span style="color:#e6db74">`*`</span> is <span style="font-style:italic">_Italic_</span>.
+Text enclosed in two <span style="color:#e6db74">`__`</span> or <span style="color:#e6db74">`**`</span> is <span style="font-weight:bold">**bold**</span>.
+You can _**mix and match**_.
+</code></pre></div><h3 id="lists">Lists</h3>
+<p>You can use a <code>-</code> or <code>*</code> to make an unordered list (bullets).</p>
+<ul>
+<li>like this
+<ul>
+<li>it nests
+<ul>
+<li>by just indenting</li>
+</ul>
+</li>
+<li>levels are preserved further down</li>
+</ul>
+</li>
+</ul>
+<p>You can make an ordered list by using a number for a bullet.</p>
+<ol>
+<li>melt the butter</li>
+<li>add the flour</li>
+<li>put some eggs in</li>
+<li>bake</li>
+</ol>
+<p>Note you can use any number, they don&rsquo;t have to be sequential, but they can be. If you need to edit an existing ordered list and add an item in the middle, don&rsquo;t worry about updating all the numbers to match.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">-</span> like this
+  <span style="color:#66d9ef">-</span> it nests
+    <span style="color:#66d9ef">-</span> by just indenting
+  <span style="color:#66d9ef">-</span> levels are preserved further down
+
+<span style="color:#66d9ef">1.</span> melt the butter
+<span style="color:#66d9ef">1.</span> add the flour
+<span style="color:#66d9ef">1.</span> put some eggs in
+<span style="color:#66d9ef">1.</span> bake
+</code></pre></div><h3 id="links">Links</h3>
+<p>You can insert links <a href="https://github.com/">to places</a>.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">You can insert links [<span style="color:#f92672">to places</span>](<span style="color:#a6e22e">https://github.com/</span>).
+</code></pre></div><h3 id="images">Images</h3>
+<p>You can insert images by prepending a link with a <code>!</code>.</p>
+<p>Like this:
+<img src="tina.jpg" alt="tina"></p>
+<p>Also Tina says hello, you&rsquo;re likely to see her sleeping the day away over my left shoulder.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">Like this:
+![<span style="color:#f92672">tina</span>](<span style="color:#a6e22e">tina.jpg</span>)
+</code></pre></div><h3 id="quotes">Quotes</h3>
+<p>You can make quotes by prepending them with <code>&gt;</code>.</p>
+<blockquote>
+<p>Light travels faster than sound. This is why some people appear bright until you hear them speak.</p>
+<p>Alan Dundes</p>
+</blockquote>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">&gt; </span><span style="font-style:italic">Light travels faster than sound. This is why some people appear bright until you hear them speak.
+</span><span style="font-style:italic"></span>&gt; 
+<span style="color:#66d9ef">&gt; </span><span style="font-style:italic">Alan Dundes
+</span></code></pre></div><h3 id="code-blocks">Code blocks</h3>
+<p>You can format things in monospace &ldquo;code&rdquo; font with `.</p>
+<p>You can use them for <code>in-line text</code>, or use triple-` for entire blocks</p>
+<pre><code>like this
+</code></pre><pre><code>You can use them for `in-line text`, or use triple-` for entire blocks
+
+```
+like this
+```
+</code></pre>
+<h3 id="github-flavored-markdown">Github flavored markdown</h3>
+<p>That covers the basics. Most of the world uses a slightly extended format called &ldquo;Github Flavoured Markup&rdquo;, which offers some additional capabilities, e.g., like rendering tables.</p>
+<p>You can read more about it <a href="https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown">on Github</a>.</p>
+<h1 id="output">Output</h1>
+<p>Markdown ultimately compiles to a format called <em>HTML</em>, which is what browsers consume, and what we&rsquo;ll cover next.</p>
+<ul class="pa0">
   
 </ul>
 <div class="mt6 instapaper_ignoref">

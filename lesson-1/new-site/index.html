@@ -44,7 +44,7 @@ Type in powershell and press Enter.
 You should see a terminal window appear.">
 <meta itemprop="datePublished" content="2020-06-10T15:47:47&#43;01:00" />
 <meta itemprop="dateModified" content="2020-06-10T15:47:47&#43;01:00" />
-<meta itemprop="wordCount" content="590">
+<meta itemprop="wordCount" content="904">
 
 
 
@@ -249,15 +249,15 @@ You should see a terminal window appear."/>
 <p>Then navigate to your site&rsquo;s folder, go to <code>theme &gt; ananke &gt; exampleSite</code>, and copy the file named <code>config.toml</code> to your site&rsquo;s folder.</p>
 <p>Finally, start Sublime. Pick <code>File &gt; Open Folder</code>, and find the folder your site is in (<code>C:\Hugo\Sites\my-codef-site</code> for Windows and <code>Sites/my-codef-site</code> for Mac).</p>
 <p>You should see Sublime open up a folder structure, listing all the files.</p>
-<p><img src="sublime-0.png" alt="Kraken"></p>
+<p><img src="sublime-0.png" alt="Sublime"></p>
 <p>Find and open the <code>config.toml</code> file you just created.</p>
 <p>We&rsquo;re interested in changing 2 lines here.</p>
-<p><img src="sublime-1.png" alt="Kraken"></p>
+<p><img src="sublime-1.png" alt="Sublime"></p>
 <ul>
 <li>we need to change <code>theme = &quot;gohugo-theme-ananke&quot;</code> to <code>theme = &quot;ananke&quot;</code></li>
 <li>and <code>themesDir = &quot;../..&quot;</code> to <code>themesDir = &quot;themes&quot;</code></li>
 </ul>
-<p><img src="sublime-2.png" alt="Kraken"></p>
+<p><img src="sublime-2.png" alt="Sublime"></p>
 <p>Save the file.</p>
 <h1 id="seeing-your-website">Seeing your website</h1>
 <p>Switch back to your terminal window.</p>
@@ -266,15 +266,39 @@ You should see a terminal window appear."/>
 </code></pre><p>followed by</p>
 <pre><code>hugo server -D
 </code></pre><p>You should now have a <a href="http://localhost:1313">running website</a>.</p>
-<h2 id="its-responsive">It&rsquo;s responsive</h2>
-<p>TODO</p>
+<h1 id="commit-it-to-git">Commit it to Git</h1>
+<p>Finally, we&rsquo;ll &ldquo;commit&rdquo; what we&rsquo;ve done so far, so that if we break something, we can always go back to our working version of the site.</p>
+<p>First, open your Sublime, and create a new file.</p>
+<p>Type in <code>public/</code></p>
+<p><img src="sublime-3.png" alt="Sublime"></p>
+<p>Save the file with the name <code>.gitignore</code></p>
+<p><img src="sublime-4.png" alt="Sublime"></p>
+<p>Find your GitKraken window.</p>
+<p>On your right is a column talking about &ldquo;changes&rdquo; and &ldquo;stage&rdquo;.</p>
+<p>Click the button that says &ldquo;Stage all changes&rdquo;.</p>
+<p><img src="kraken-10.png" alt="Kraken"></p>
+<p>You should now see a bunch of files listed in the &ldquo;Staged files&rdquo; box.</p>
+<p><img src="kraken-11.png" alt="Kraken"></p>
+<p>In the box that says <code>Commit Message</code> type in something like &ldquo;First site&rdquo;. This can be free text, it&rsquo;s just a description of the state we&rsquo;re saving.</p>
+<p><img src="kraken-12.png" alt="Kraken"></p>
+<p>Then click the green button under the box that says <code>Commit changes to X files</code></p>
+<p><img src="kraken-13.png" alt="Kraken"></p>
+<p>You should now see a new entry in the log with the message you entered.</p>
+<p><img src="kraken-14.png" alt="Kraken"></p>
+<p>Click the <code>Push</code> button in the top row to replicate these changes in Github.</p>
 <h1 id="further-reading">Further reading</h1>
 <p>Everything past this point is optional, and these are just some topics for further exploration.</p>
+<p>We&rsquo;ve saved the state of our site with Git, so you can safely experiment and explore. Whatever you do, we can always get back to the working version we have. We encourage you to try making some changes and just seeing what happens.</p>
 <h2 id="sublime-plugins">Sublime plugins</h2>
 <p>Sublime supports a wide, wide array of plugins. There is one for Hugo as well, feel free to <a href="https://github.com/akmittal/Hugofy-sublime">install it</a> and play around.</p>
+<p>If you find others you think might prove useful, feel free to install them, share with others, or both.</p>
 <h2 id="git-tutorial">Git tutorial</h2>
 <p>Github has an <strong>extensive</strong> set of guides on what Git is, and how to use it. A good starting point that covers the basics is their <a href="https://guides.github.com/introduction/git-handbook/">Git handbook</a></p>
-<h1 id="extra-work">Extra work</h1>
+<h2 id="hugo">Hugo</h2>
+<p>Hugo has extensive documentation as well. We&rsquo;ll cover the bits needed for us to make a functional site in the course, but feel free to explore <a href="https://gohugo.io/getting-started/directory-structure/">the official documentation</a> and try anything you find interesting.</p>
+<p>If you make some content, Hugo uses a format called <code>markdown</code>. We&rsquo;ll cover this in our next lesson, but for now &ndash; any text is valid markdown, so you can just type some things up and they should show on your site.</p>
+<h2 id="configuration">Configuration</h2>
+<p>Have a play with the values in the configuration. Ananke supports a variety of options, documented on <a href="https://github.com/budparr/gohugo-theme-ananke/#getting-started">the project&rsquo;s Github page</a>.</p>
 <ul class="pa0">
   
 </ul>
