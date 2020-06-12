@@ -28,6 +28,32 @@ If you feel like you're familiar with an aspect of the course, you're free to di
 
 If you're running Linux, we've tried our best to suggest options, but to an extent, we're also assuming that you're running Linux because you know what you're doing. Linux generally provides unlimited customisability, and it's not feasible for us to cover everyone's individual setups here. Same rules apply, if you're struggling with anything, please ask for help, and we will do our best.
 
+# Intro
+During this course we will create a website and deploy it to a publicly accesible place. The aim is to show you that you can build a decent looking website quickly, and get it out to the public, for entirely free. One of the core philosophical goals of the internet was (and still is) democratising access to information. We want to show you how _easy_ it is to do that using a platform you build yourself.
+
+The tools we're using are widely used in the industry, and power _lots_ of things already present on the internet.
+
+We make no assumptions about the content of your site, we leave that up to you. I can be an online CV, a portfolio, a fan page for your cat, or anything else you can come up with.
+
+We encourage you to stay within copyright law, e.g., if you need an image for something like a banner, please don't just go to Google Images and grab the first thing you find. There are ways to find legal content, e.g., Google Images allows you to specify you want to search specifically for images you can reuse, it's under `Tools -> Usage rights`.
+
+Finally, throughout the course, we encourage you to experiment! Make changes to things, see what happens. The beauty of **software** engineering is that unlike, e.g., mechanical engineering, typically nothing is irreversible, and nothing has any consequences beyond some characters displayed on a screen. If you make a mistake on your computer, nothing explodes, no physical harm comes to anyone, nor is there any financial loss to anyone or anything. A bruised ego is the worst you get. So play around, explore, _do_ break something if only to see what happens when things go up in smoke!
+
+## First day
+This first day is largely about setting up and getting comfortable with the tools we'll use.
+
+We'll need 4 things
+
+- an editor
+- a Git interface
+- a Github account
+- and the tool we use to create the site, Hugo
+
+The first 3 can be done in parallel should you choose to, you'll need to install 2 apps and sign up for 1 account.
+Installing Hugo is more involved, but we guide you through that step-by-step.
+
+There is some use of a _terminal_, but we provide all exact commands you need. Terminals are a very commonly used tool in the software industry, though we appreciate they look rather daunting at first.
+
 # Editor
 We're going to be using an editor called [Sublime Text 3](https://www.sublimetext.com/3).
 
@@ -130,5 +156,3 @@ brew install hugo
 It should be present in your package manager.
 
 If not, Hugo is a Go binary with no dependencies, you can literally download the latest [release](https://github.com/gohugoio/hugo/releases), and put it somewhere in your PATH. `/usr/local/bin/` might be a good quick option.
-
-

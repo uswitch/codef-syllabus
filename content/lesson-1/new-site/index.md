@@ -107,18 +107,18 @@ Finally, start Sublime. Pick `File > Open Folder`, and find the folder your site
 
 You should see Sublime open up a folder structure, listing all the files.
 
-![Kraken](sublime-0.png)
+![Sublime](sublime-0.png)
 
 Find and open the `config.toml` file you just created.
 
 We're interested in changing 2 lines here.
 
-![Kraken](sublime-1.png)
+![Sublime](sublime-1.png)
 
 - we need to change `theme = "gohugo-theme-ananke"` to `theme = "ananke"`
 - and `themesDir = "../.."` to `themesDir = "themes"`
 
-![Kraken](sublime-2.png)
+![Sublime](sublime-2.png)
 
 Save the file.
 
@@ -139,16 +139,63 @@ hugo server -D
 
 You should now have a [running website](http://localhost:1313).
 
-## It's responsive
-TODO
+# Commit it to Git
+Finally, we'll "commit" what we've done so far, so that if we break something, we can always go back to our working version of the site.
+
+First, open your Sublime, and create a new file.
+
+Type in `public/`
+
+![Sublime](sublime-3.png)
+
+Save the file with the name `.gitignore`
+
+![Sublime](sublime-4.png)
+
+Find your GitKraken window.
+
+On your right is a column talking about "changes" and "stage".
+
+Click the button that says "Stage all changes".
+
+![Kraken](kraken-10.png)
+
+You should now see a bunch of files listed in the "Staged files" box.
+
+![Kraken](kraken-11.png)
+
+In the box that says `Commit Message` type in something like "First site". This can be free text, it's just a description of the state we're saving.
+
+![Kraken](kraken-12.png)
+
+Then click the green button under the box that says `Commit changes to X files`
+
+![Kraken](kraken-13.png)
+
+You should now see a new entry in the log with the message you entered.
+
+![Kraken](kraken-14.png)
+
+Click the `Push` button in the top row to replicate these changes in Github.
 
 # Further reading
 Everything past this point is optional, and these are just some topics for further exploration.
 
+We've saved the state of our site with Git, so you can safely experiment and explore. Whatever you do, we can always get back to the working version we have. We encourage you to try making some changes and just seeing what happens.
+
 ## Sublime plugins
 Sublime supports a wide, wide array of plugins. There is one for Hugo as well, feel free to [install it](https://github.com/akmittal/Hugofy-sublime) and play around.
+
+If you find others you think might prove useful, feel free to install them, share with others, or both.
 
 ## Git tutorial
 Github has an **extensive** set of guides on what Git is, and how to use it. A good starting point that covers the basics is their [Git handbook](https://guides.github.com/introduction/git-handbook/)
 
-# Extra work
+## Hugo
+Hugo has extensive documentation as well. We'll cover the bits needed for us to make a functional site in the course, but feel free to explore [the official documentation](https://gohugo.io/getting-started/directory-structure/) and try anything you find interesting.
+
+If you make some content, Hugo uses a format called `markdown`. We'll cover this in our next lesson, but for now -- any text is valid markdown, so you can just type some things up and they should show on your site.
+
+## Configuration
+Have a play with the values in the configuration. Ananke supports a variety of options, documented on [the project's Github page](https://github.com/budparr/gohugo-theme-ananke/#getting-started).
+
