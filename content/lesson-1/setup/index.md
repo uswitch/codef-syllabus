@@ -31,6 +31,8 @@ If you're running Linux, we've tried our best to suggest options, but to an exte
 # Intro
 During this course we will create a website and deploy it to a publicly accesible place. The aim is to show you that you can build a decent looking website quickly, and get it out to the public, for entirely free. One of the core philosophical goals of the internet was (and still is) democratising access to information. We want to show you how _easy_ it is to do that using a platform you build yourself.
 
+We'll cover a fairly broad range of skills, going through some basic applications of them. Creating a high quality, good looking website takes more in-depth studying of all of them, but this course is more about showing you what goes into it, than making you an expert in any one area. All the things we're covering have _lots_ of free material online, and we'll link to more in-depth reading at the end of each section, should you be interested in delving deeper into a particular area.
+
 The tools we're using are widely used in the industry, and power _lots_ of things already present on the internet.
 
 We make no assumptions about the content of your site, we leave that up to you. I can be an online CV, a portfolio, a fan page for your cat, or anything else you can come up with.

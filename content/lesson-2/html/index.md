@@ -46,6 +46,8 @@ If you want to embed things in your pages, you'll need to put these lines in you
       unsafe = true
 ```
 
+**NOTE**: Hugo makes you jump through this particular hoop because it's a potential safety hazard, and the "right" way to do this is via something called _shortcodes_, which we'll cover in the next lesson. Given we're the only ones making changes to this site, the config change is fine and is not actually a security risk.
+
 There are tons of other options for the Markdown renderer, they're all documented [on the Hugo site](https://gohugo.io/getting-started/configuration-markup/).
 
 # Let's make some content
