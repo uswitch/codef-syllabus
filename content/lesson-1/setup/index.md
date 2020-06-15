@@ -14,6 +14,8 @@ If at any point you're struggling, ask for help. The lessons are aimed to be med
 
 We will need some tools and accounts for this course.
 
+This site is largely made using the technologies explored in this course, and the source code for it can be freely explored [on Github](https://github.com/uswitch/codef-syllabus/).
+
 # Assumptions
 We've tried to specifically **not** make any assumptions about your individual setups, but everyone's computer is different.
 
@@ -25,6 +27,41 @@ If you feel like you're familiar with an aspect of the course, you're free to di
 - if you have a favourite editor you're comfortable with, we're not forcing you to use Sublime
 
 If you're running Linux, we've tried our best to suggest options, but to an extent, we're also assuming that you're running Linux because you know what you're doing. Linux generally provides unlimited customisability, and it's not feasible for us to cover everyone's individual setups here. Same rules apply, if you're struggling with anything, please ask for help, and we will do our best.
+
+# Intro
+During this course we will create a website and deploy it to a publicly accesible place. The aim is to show you that you can build a decent looking website quickly, and get it out to the public, for entirely free. One of the core philosophical goals of the internet was (and still is) democratising access to information. We want to show you how _easy_ it is to do that using a platform you build yourself.
+
+We'll cover a fairly broad range of skills, going through some basic applications of them. Creating a high quality, good looking website takes more in-depth studying of all of them, but this course is more about showing you what goes into it, than making you an expert in any one area. All the things we're covering have _lots_ of free material online, and we'll link to more in-depth reading at the end of each section, should you be interested in delving deeper into a particular area.
+
+The tools we're using are widely used in the industry, and power _lots_ of things already present on the internet.
+
+We make no assumptions about the content of your site, we leave that up to you. I can be an online CV, a portfolio, a fan page for your cat, or anything else you can come up with.
+
+We encourage you to stay within copyright law, e.g., if you need an image for something like a banner, please don't just go to Google Images and grab the first thing you find. There are ways to find legal content, e.g., Google Images allows you to specify you want to search specifically for images you can reuse, it's under `Tools -> Usage rights`.
+
+Finally, throughout the course, we encourage you to experiment! Make changes to things, see what happens. The beauty of **software** engineering is that unlike, e.g., mechanical engineering, typically nothing is irreversible, and nothing has any consequences beyond some characters displayed on a screen. If you make a mistake on your computer, nothing explodes, no physical harm comes to anyone, nor is there any financial loss to anyone or anything. A bruised ego is the worst you get. So play around, explore, _do_ break something if only to see what happens when things go up in smoke!
+
+## First day
+This first day is largely about setting up and getting comfortable with the tools we'll use.
+
+We'll need 4 things
+
+- an editor
+- a Git interface
+- a Github account
+- and the tool we use to create the site, Hugo
+
+The first 3 can be done in parallel should you choose to, you'll need to install 2 apps and sign up for 1 account.
+Installing Hugo is more involved, but we guide you through that step-by-step.
+
+There is some use of a _terminal_, but we provide all exact commands you need. Terminals are a very commonly used tool in the software industry, though we appreciate they look rather daunting at first.
+
+## Some productivity tips
+It is probably going to be useful having either the course site or the Zoom meeting up at the same time as doing things with the other apps.
+
+In Windows you can either drag the window against either side or corner of the screen to make it "snap" to that side or corner. This can also be achieved with your keyboard, pressing Win + ➡️  will snap the current window to the right side of the screen, pressing Win + ➡️ ⬆️ will snap the current window to the top right quadrant.
+
+In Mac it's probably easiest to utilise multiple workspaces to quickly switch between the Zoom meeting, the browser with the syllabus, and you ongoing work, though there are productivity apps to allow similar side-by-side snapping, Magnet is a popular one.
 
 # Editor
 We're going to be using an editor called [Sublime Text 3](https://www.sublimetext.com/3).
@@ -68,19 +105,42 @@ What you'll need to do is
 2. Make a directory named `Hugo` in your `C:` drive
 3. Make a directory named `bin` in the newly made `Hugo` diretory
 4. Move the file you downloaded into this `bin` folder
-5. Unzip the file
+
+![Windows](hugo-0.png)
+
+5. Unzip the file directly into the `bin` directory
+
+![Windows](hugo-1.png)
+
 6. You should now see 3 files, one of which is `hugo.exe`
+
+![Windows](hugo-2.png)
 
 Then you'll need to make Hugo executable from a terminal, which is something we'll need later. To do this
 
 1. Right click your `Start` button
 2. Click `System`
-3. Click on `Advanced System Settings` on the left
+
+![Windows](hugo-3.png)
+
+3. Start typing `Advanced System Settings` into the search bar
+
+![Windows](hugo-4.png)
+
 4. Click on the `Environment Variables` button on the bottom
+
+![Windows](hugo-5.png)
+
 5. In the `User variables` section, find the row that starts with `PATH` (PATH will be all caps)
 6. Double-click on `PATH`
+
+![Windows](hugo-6.png)
+
 7. Click the `New` button
 8. Type in `C:\Hugo\bin`, press Enter
+
+![Windows](hugo-7.png)
+
 9. Click `OK` at every window to exit
 
 ## macOS
@@ -105,135 +165,3 @@ brew install hugo
 It should be present in your package manager.
 
 If not, Hugo is a Go binary with no dependencies, you can literally download the latest [release](https://github.com/gohugoio/hugo/releases), and put it somewhere in your PATH. `/usr/local/bin/` might be a good quick option.
-
-# Creating your first website
-
-## Windows
-Please create a folder named `Sites` in `C:\Hugo`, i.e., when you're done, you should have a structure like `C: > Hugo > Sites`. There will be 2 folders in `C:\Hugo` named `Sites` and `bin`.
-
-TODO screenshots
-
-Navigate to the newly created `Sites` folder. Then click the line with the folder list, it should turn editable. Type in `powershell` and press Enter. You should see a terminal window appear.
-
-## macOS
-Please create a folder named `Sites` in your home directory. You can use Finder to do this.
-
-Open a Terminal app. You can do this via your launcher, e.g., Cmd+Space, then type in `Terminal` and press Enter.
-
-Type in `cd ~/Sites`
-
-## Generating a basic site
-On either platform, in your terminal type in 
-
-```
-hugo new site my-codef-site
-```
-
-It should print some information, but a basic site is now generated.
-
-# Sending the site to Github
-
-## GitKraken
-Open your GitKraken.
-
-![Kraken](/images/lesson-1/kraken-0.png)
-
-Pick `Start a local repo`
-
-![Kraken](/images/lesson-1/kraken-1.png)
-
-Select the `Init` tab. Fill in
-
-- `my-codef-site` for `Name`
-- find your `Sites` folder for the `Initialize in`
-
-![Kraken](/images/lesson-1/kraken-2.png)
-
-Click `Create Repository`.
-
-You should see a window with some bubbles saying `master` and `Initial commit`.
-
-![Kraken](/images/lesson-1/kraken-3.png)
-
-This should open a window with some blue bubbles, saying `master` and `Initial commit`.
-
-We now want to replicate this to Github. To do this, we 
-
-- find the section on the left that says `Remote`
-- click the green `+` sign
-
-![Kraken](/images/lesson-1/kraken-4.png)
-
-Choose `Github`. Leave all values as is and just click `Create remote and push local refs`
-
-![Kraken](/images/lesson-1/kraken-5.png)
-
-In a short while it should show a success message
-
-![Kraken](/images/lesson-1/kraken-6.png)
-
-# Adding a basic theme
-For Hugo to display any content for your site, we need to pick a "theme". A theme determines _how_ Hugo displays your content.
-
-We'll explore themes in more detail later, but for now let's add the _Ananke_ theme to our site so we can see it.
-
-In GitKraken, find the `Submodules` section on the left side, and click the `+` button.
-
-![Kraken](/images/lesson-1/kraken-7.png)
-
-Input `https://github.com/budparr/gohugo-theme-ananke.git` for `Remote URL` and `themes/ananke` for `Name/Path`.
-
-![Kraken](/images/lesson-1/kraken-8.png)
-
-Click `Add submodule`, you'll see some progress animations, and ultimately a success message.
-
-![Kraken](/images/lesson-1/kraken-9.png)
-
-Then navigate to your site's folder, go to `theme > ananke > exampleSite`, and copy the file named `config.toml` to your site's folder.
-
-Finally, start Sublime. Pick `File > Open Folder`, and find the folder your site is in (`C:\Hugo\Sites\my-codef-site` for Windows and `Sites/my-codef-site` for Mac).
-
-You should see Sublime open up a folder structure, listing all the files.
-
-![Kraken](/images/lesson-1/sublime-0.png)
-
-Find and open the `config.toml` file you just created.
-
-We're interested in changing 2 lines here.
-
-![Kraken](/images/lesson-1/sublime-1.png)
-
-- we need to change `theme = "gohugo-theme-ananke"` to `theme = "ananke"`
-- and `themesDir = "../.."` to `themesDir = "themes"`
-
-![Kraken](/images/lesson-1/sublime-2.png)
-
-Save the file.
-
-# Seeing your website
-Switch back to your terminal window.
-
-Enter
-
-```
-cd my-codef-site
-```
-
-followed by
-
-```
-hugo server -D
-```
-
-You should now have a [running website](http://localhost:1313).
-
-# Further reading
-Everything past this point is optional, and these are just some topics for further exploration.
-
-## Sublime plugins
-Sublime supports a wide, wide array of plugins. There is one for Hugo as well, feel free to [install it](https://github.com/akmittal/Hugofy-sublime) and play around.
-
-## Git tutorial
-Github has an **extensive** set of guides on what Git is, and how to use it. A good starting point that covers the basics is their [Git handbook](https://guides.github.com/introduction/git-handbook/)
-
-# Extra work

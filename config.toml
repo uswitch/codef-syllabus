@@ -1,5 +1,5 @@
 title = "Welcome to CodeF"
-baseURL = "https://example.com"
+baseURL = "https://uswitch.github.io/codef-syllabus/"
 languageCode = "en-gb"
 theme = "ananke"
 
@@ -14,6 +14,11 @@ enableRobotsTXT = true
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
   favicon = "/favicon.ico"
