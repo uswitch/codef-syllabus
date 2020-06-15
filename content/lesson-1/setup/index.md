@@ -54,6 +54,13 @@ Installing Hugo is more involved, but we guide you through that step-by-step.
 
 There is some use of a _terminal_, but we provide all exact commands you need. Terminals are a very commonly used tool in the software industry, though we appreciate they look rather daunting at first.
 
+## Some productivity tips
+It is probably going to be useful having either the course site or the Zoom meeting up at the same time as doing things with the other apps.
+
+In Windows you can either drag the window against either side or corner of the screen to make it "snap" to that side or corner. This can also be achieved with your keyboard, pressing Win + ➡️  will snap the current window to the right side of the screen, pressing Win + ➡️ ⬆️ will snap the current window to the top right quadrant.
+
+In Mac it's probably easiest to utilise multiple workspaces to quickly switch between the Zoom meeting, the browser with the syllabus, and you ongoing work, though there are productivity apps to allow similar side-by-side snapping, Magnet is a popular one.
+
 # Editor
 We're going to be using an editor called [Sublime Text 3](https://www.sublimetext.com/3).
 

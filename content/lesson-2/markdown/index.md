@@ -70,6 +70,19 @@ Markdown is intended primarily for the web, though there is definitely software 
 
 Markdown has a few core concepts you can use to format your content. The capabilities are similar to programs like Word and Google Docs.
 
+### Paragraphs
+Newlines don't mean anything unless there's more than one. You can split your text 
+into lines as you please.
+
+A new paragraph will only start if you put an empty line in the between them.
+
+```markdown
+Newlines don't mean anything unless there's more than one. You can split your text 
+into lines as you please.
+
+A new paragraph will only start if you put an empty line in the between them.
+```
+
 ### Headers
 
 Text on a new line that starts with one or more `#` is a header.

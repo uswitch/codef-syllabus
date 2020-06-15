@@ -101,7 +101,7 @@ Click `Add submodule`, you'll see some progress animations, and ultimately a suc
 
 ![Kraken](kraken-9.png)
 
-Then navigate to your site's folder, go to `theme > ananke > exampleSite`, and copy the file named `config.toml` to your site's folder.
+Then navigate to your site's folder, go to `theme > ananke > exampleSite`, and copy the file named `config.toml` to your site's folder. You might get a prompt saying the file already exists, choose to replace / overwrite it.
 
 Finally, start Sublime. Pick `File > Open Folder`, and find the folder your site is in (`C:\Hugo\Sites\my-codef-site` for Windows and `Sites/my-codef-site` for Mac).
 
@@ -177,6 +177,7 @@ You should now see a new entry in the log with the message you entered.
 ![Kraken](kraken-14.png)
 
 Click the `Push` button in the top row to replicate these changes in Github.
+If it asks about "references" and "remotes", just leave the values default, it should say `origin / master`.
 
 # Further reading
 Everything past this point is optional, and these are just some topics for further exploration.
@@ -199,3 +200,4 @@ If you make some content, Hugo uses a format called `markdown`. We'll cover this
 ## Configuration
 Have a play with the values in the configuration. Ananke supports a variety of options, documented on [the project's Github page](https://github.com/budparr/gohugo-theme-ananke/#getting-started).
 
+For example, you can swap out the background image, change the font, customise the social media links.
