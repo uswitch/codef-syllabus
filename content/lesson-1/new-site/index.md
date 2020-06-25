@@ -63,11 +63,9 @@ Select the `Init` tab. Fill in
 
 Click `Create Repository`.
 
-You should see a window with some bubbles saying `master` and `Initial commit`.
+This should open a window with some blue bubbles, saying `master` and `Initial commit`.
 
 ![Kraken](kraken-3.png)
-
-This should open a window with some blue bubbles, saying `master` and `Initial commit`.
 
 We now want to replicate this to Github. To do this, we 
 
