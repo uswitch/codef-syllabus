@@ -175,7 +175,7 @@ You should now see a new entry in the log with the message you entered.
 ![Kraken](kraken-14.png)
 
 Click the `Push` button in the top row to replicate these changes in Github.
-If it asks about "references" and "remotes", just leave the values default, it should say `origin / master`.
+If it asks about "references" and "remotes", just leave the values default and click `Submit`, it should say `origin / master`.
 
 # Further reading
 Everything past this point is optional, and these are just some topics for further exploration.
