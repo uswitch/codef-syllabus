@@ -99,7 +99,7 @@ Click `Add submodule`, you'll see some progress animations, and ultimately a suc
 
 ![Kraken](kraken-9.png)
 
-Then navigate to your site's folder, go to `theme > ananke > exampleSite`, and copy the file named `config.toml` to your site's folder. You might get a prompt saying the file already exists, choose to replace / overwrite it.
+Then navigate to your site's folder, go to `themes > ananke > exampleSite`, and copy the file named `config.toml` to your site's folder. You might get a prompt saying the file already exists, choose to replace / overwrite it.
 
 Finally, start Sublime. Pick `File > Open Folder`, and find the folder your site is in (`C:\Hugo\Sites\my-codef-site` for Windows and `Sites/my-codef-site` for Mac).
 
