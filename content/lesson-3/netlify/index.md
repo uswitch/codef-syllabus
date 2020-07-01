@@ -2,7 +2,7 @@
 title: "Netlify"
 date: 2020-06-10T15:49:11+01:00
 order: 1
-draft: true
+draft: false
 ---
 # Publishing our site
 We've done some hard work over the last 2 days, now it's time to show it to the rest of the world.

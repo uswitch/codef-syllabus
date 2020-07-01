@@ -2,7 +2,7 @@
 title: "Templating & Variables"
 date: 2020-06-10T15:49:27+01:00
 order: 2
-draft: true
+draft: false
 ---
 Now that we have our basic site up and running, let's look at how we can _really_ make this site our own.
 
@@ -113,9 +113,22 @@ They can be plain HTML, or use some logic, but that's delving deeper into "progr
 # Further reading
 
 ## Domain names, DNS
+Cloudflare have a [good guide](https://www.cloudflare.com/learning/dns/what-is-dns/) about what DNS is, what it does, and what it eats in the winter.
+
+Unrelated to this course, they also have a lot of [learning resources](https://www.cloudflare.com/learning/) about lower level things, like bots, website traffic encryption (SSL / TLS), and various other nitty gritty surrounding the daily operation of the Internet.
+
+## Netlify
+Netlify is an integrated platform that does virtually everything for you. If you're interested, their documentation tells you all about what Netlify can do for you, e.g., [analytics](https://docs.netlify.com/monitor-sites/analytics/) to show you how many people are interacting with your site and in what way.
+
+**NOTE**: most of these features are probably not available on the Free tier, so this is more about learning what is possible.
 
 ## Hugo
+Have a look at [what's possible](https://gohugo.io/showcase/) in the Hugo showcase.
 
-### Page types, layouts
+Hugo has [extensive documentation](https://gohugo.io/documentation/) on everything it does, and it's worth getting familiar with it if you're developing a site in Hugo. The particular topics covered today would be
+
+- [templates](https://gohugo.io/templates/introduction/), including [lists](https://gohugo.io/templates/lists/) and [partials](https://gohugo.io/templates/partials/)
+- [shortcodes](https://gohugo.io/content-management/shortcodes/)
 
 ### Gomplate
+Hugo uses a special type of _language_ to inject dynamic content into your templates. We've called them "placeholders" before, because that's essentially what they are. The thing Hugo uses is called _gomplate_ or _Go templates_, and you can learn more about them in the [Go documentation](https://golang.org/pkg/text/template/). You'll only need this if you're writing logic in your layouts, e.g., conditionally displaying sections based on whether something else is true or false.

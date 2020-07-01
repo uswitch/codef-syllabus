@@ -2,7 +2,7 @@
 title: "New Site"
 date: 2020-06-10T15:47:47+01:00
 order: 2
-draft: true
+draft: false
 ---
 # Creating your first website
 
