@@ -2,7 +2,7 @@
 title: "Markdown"
 date: 2020-06-10T15:48:44+01:00
 order: 2
-draft: true
+draft: false
 ---
 # Let's make some content
 Hugo is pretty loose about its expectations, but it does require _some_ structure. That structure somewhat also depends on the theme used, and advanced users can tweak the theme and content locations. We're using the `ananke` theme, and the constraints are as follows:

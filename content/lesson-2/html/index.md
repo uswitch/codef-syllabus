@@ -2,7 +2,7 @@
 title: "HTML"
 date: 2020-06-10T15:48:57+01:00
 order: 3
-draft: true
+draft: false
 ---
 We've made a content file in `content/_index.md`. Once you start adding content to it, you should see output generated in the `public/` folder.
 
