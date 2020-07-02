@@ -44,11 +44,17 @@ Find your `my-codef-site` in the list, and click it.
 
 ![Netlify](netlify-3.png)
 
-This should take you to the final screen with some settings. These can all be left as is. Click the `Deploy site` button at the bottom.
+This should take you to the final screen with some settings.
+
+![Netlify](netlify-4.png)
+
+These can be left as is. Click the `Show advanced` button and then click the `New variable` button. Tell Netlify to use the latest version of Hugo by adding `HUGO_VERSION` as `0.73.0`
+
+Click the `Deploy site` button at the bottom.
 
 It should take you back to the beginning and say that it published the site.
 
-![Netlify](netlify-4.png)
+![Netlify](netlify-5.png)
 
 If you click the link it'll take you to your page.
 
