@@ -4,7 +4,7 @@ date: 2020-06-10T15:48:57+01:00
 order: 3
 draft: false
 ---
-We've made a content file in `content/_index.md`. Once you start adding content to it, you should see output generated in the `public/` folder.
+We've made a content file in `content/_index.md`. Once you start adding content to it, if you run `hugo` by itself you should see output generated in the `public/` folder.
 
 If we open one of the `.html` files in Sublime, we should see some text and lots of angle brackets.
 

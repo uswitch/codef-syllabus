@@ -80,7 +80,7 @@ A new paragraph will only start if you put an empty line in the between them.
 Newlines don't mean anything unless there's more than one. You can split your text 
 into lines as you please.
 
-A new paragraph will only start if you put an empty line in the between them.
+A new paragraph will only start if you put an empty line in between them.
 ```
 
 ### Headers
