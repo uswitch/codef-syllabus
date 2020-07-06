@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lesson 3 on Welcome to CodeF</title><link>https://uswitch.github.io/codef-syllabus/lesson-3/</link><description>Recent content in Lesson 3 on Welcome to CodeF</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Wed, 10 Jun 2020 16:40:48 +0100</lastBuildDate><atom:link href="https://uswitch.github.io/codef-syllabus/lesson-3/index.xml" rel="self" type="application/rss+xml"/><item><title>Templating &amp; Variables</title><link>https://uswitch.github.io/codef-syllabus/lesson-3/templating/</link><pubDate>Wed, 10 Jun 2020 15:49:27 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-3/templating/</guid><description>Now that we have our basic site up and running, let&amp;rsquo;s look at how we can really make this site our own.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lesson 3 on Welcome to CodeF</title>
+    <link>https://uswitch.github.io/codef-syllabus/lesson-3/</link>
+    <description>Recent content in Lesson 3 on Welcome to CodeF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 10 Jun 2020 16:40:48 +0100</lastBuildDate>
+    
+	<atom:link href="https://uswitch.github.io/codef-syllabus/lesson-3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Templating &amp; Variables</title>
+      <link>https://uswitch.github.io/codef-syllabus/lesson-3/templating/</link>
+      <pubDate>Wed, 10 Jun 2020 15:49:27 +0100</pubDate>
+      
+      <guid>https://uswitch.github.io/codef-syllabus/lesson-3/templating/</guid>
+      <description>Now that we have our basic site up and running, let&amp;rsquo;s look at how we can really make this site our own.
 This is delving into slightly more advanced territory, but everything we&amp;rsquo;ll do is incremental, and if you make a mistake, you can always use Git to revert your changes.
-Layouts &amp;amp; templates The final output of your website is primarily 2 things, HTML, which we covered in our previous lesson, and CSS, which we&amp;rsquo;ll cover in our next lesson.</description></item><item><title>Netlify</title><link>https://uswitch.github.io/codef-syllabus/lesson-3/netlify/</link><pubDate>Wed, 10 Jun 2020 15:49:11 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-3/netlify/</guid><description>Publishing our site We&amp;rsquo;ve done some hard work over the last 2 days, now it&amp;rsquo;s time to show it to the rest of the world.
-Publish a page Before we try to publish anything, we need to tell Hugo that at least some of our content is supposed to show to the wider public. This is managed via the front matter. In each of your content files you&amp;rsquo;ll see a line that says draft: true.</description></item></channel></rss>
+Layouts &amp;amp; templates The final output of your website is primarily 2 things, HTML, which we covered in our previous lesson, and CSS, which we&amp;rsquo;ll cover in our next lesson.</description>
+    </item>
+    
+    <item>
+      <title>Netlify</title>
+      <link>https://uswitch.github.io/codef-syllabus/lesson-3/netlify/</link>
+      <pubDate>Wed, 10 Jun 2020 15:49:11 +0100</pubDate>
+      
+      <guid>https://uswitch.github.io/codef-syllabus/lesson-3/netlify/</guid>
+      <description>Publishing our site We&amp;rsquo;ve done some hard work over the last 2 days, now it&amp;rsquo;s time to show it to the rest of the world.
+Publish a page Before we try to publish anything, we need to tell Hugo that at least some of our content is supposed to show to the wider public. This is managed via the front matter. In each of your content files you&amp;rsquo;ll see a line that says draft: true.</description>
+    </item>
+    
+  </channel>
+</rss>

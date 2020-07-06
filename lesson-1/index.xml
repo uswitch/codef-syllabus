@@ -1,5 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lesson 1 on Welcome to CodeF</title><link>https://uswitch.github.io/codef-syllabus/lesson-1/</link><description>Recent content in Lesson 1 on Welcome to CodeF</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Wed, 10 Jun 2020 16:35:57 +0100</lastBuildDate><atom:link href="https://uswitch.github.io/codef-syllabus/lesson-1/index.xml" rel="self" type="application/rss+xml"/><item><title>New Site</title><link>https://uswitch.github.io/codef-syllabus/lesson-1/new-site/</link><pubDate>Wed, 10 Jun 2020 15:47:47 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-1/new-site/</guid><description>Creating your first website Windows Please create a folder named Sites in C:\Hugo, i.e., when you&amp;rsquo;re done, you should have a structure like C: &amp;gt; Hugo &amp;gt; Sites. There will be 2 folders in C:\Hugo named Sites and bin.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lesson 1 on Welcome to CodeF</title>
+    <link>https://uswitch.github.io/codef-syllabus/lesson-1/</link>
+    <description>Recent content in Lesson 1 on Welcome to CodeF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 10 Jun 2020 16:35:57 +0100</lastBuildDate>
+    
+	<atom:link href="https://uswitch.github.io/codef-syllabus/lesson-1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Site</title>
+      <link>https://uswitch.github.io/codef-syllabus/lesson-1/new-site/</link>
+      <pubDate>Wed, 10 Jun 2020 15:47:47 +0100</pubDate>
+      
+      <guid>https://uswitch.github.io/codef-syllabus/lesson-1/new-site/</guid>
+      <description>Creating your first website Windows Please create a folder named Sites in C:\Hugo, i.e., when you&amp;rsquo;re done, you should have a structure like C: &amp;gt; Hugo &amp;gt; Sites. There will be 2 folders in C:\Hugo named Sites and bin.
 Navigate to the newly created Sites folder. Then click the line with the folder list, it should turn editable.
 Type in powershell and press Enter.
-You should see a terminal window appear.</description></item><item><title>Setup</title><link>https://uswitch.github.io/codef-syllabus/lesson-1/setup/</link><pubDate>Wed, 10 Jun 2020 15:45:57 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-1/setup/</guid><description>Where to find this site This is the &amp;ldquo;official&amp;rdquo; course website. All the material we go through will be on this site, as will links to all tools and products used in this course.
-We&amp;rsquo;ve tried to design this course to be open-ended, so that if some of you have the time and desire to explore further, you can. Most topics will have suggestions for extra activities and options to expand, however, none of these will be assumed in further lessons.</description></item></channel></rss>
+You should see a terminal window appear.</description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>https://uswitch.github.io/codef-syllabus/lesson-1/setup/</link>
+      <pubDate>Wed, 10 Jun 2020 15:45:57 +0100</pubDate>
+      
+      <guid>https://uswitch.github.io/codef-syllabus/lesson-1/setup/</guid>
+      <description>Where to find this site This is the &amp;ldquo;official&amp;rdquo; course website. All the material we go through will be on this site, as will links to all tools and products used in this course.
+We&amp;rsquo;ve tried to design this course to be open-ended, so that if some of you have the time and desire to explore further, you can. Most topics will have suggestions for extra activities and options to expand, however, none of these will be assumed in further lessons.</description>
+    </item>
+    
+  </channel>
+</rss>

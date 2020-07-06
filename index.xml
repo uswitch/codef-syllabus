@@ -1,16 +1,110 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>I'll be your guide on Welcome to CodeF</title><link>https://uswitch.github.io/codef-syllabus/</link><description>Recent content in I'll be your guide on Welcome to CodeF</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Wed, 10 Jun 2020 16:51:36 +0100</lastBuildDate><atom:link href="https://uswitch.github.io/codef-syllabus/index.xml" rel="self" type="application/rss+xml"/><item><title>Showcase</title><link>https://uswitch.github.io/codef-syllabus/lesson-5/showcase/</link><pubDate>Wed, 10 Jun 2020 15:50:16 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-5/showcase/</guid><description/></item><item><title>CSS</title><link>https://uswitch.github.io/codef-syllabus/lesson-4/css/</link><pubDate>Wed, 10 Jun 2020 15:50:00 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-4/css/</guid><description>By now, we&amp;rsquo;ve
-made a basic site made some content for it published it to the internets at large learned about templates In this final lesson we&amp;rsquo;ll talk about how you can change the look of your site.
-Modern web pages are styled by something called CSS, or Cascading Style Sheets. We won&amp;rsquo;t cover the &amp;ldquo;cascading&amp;rdquo; aspect here, but we&amp;rsquo;ll give you a basic crash course in styling your website.</description></item><item><title>How Themes Work</title><link>https://uswitch.github.io/codef-syllabus/lesson-4/themes/</link><pubDate>Wed, 10 Jun 2020 15:49:55 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-4/themes/</guid><description>Hugo themes As you may have come to understand by now, a theme is nothing more than a collection of layouts and some CSS. It usually gets you a good starting point, and you can tweak and customise step by step, but your finished site often looks nothing like the original theme.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I&#39;ll be your guide on Welcome to CodeF</title>
+    <link>https://uswitch.github.io/codef-syllabus/</link>
+    <description>Recent content in I&#39;ll be your guide on Welcome to CodeF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 10 Jun 2020 16:51:36 +0100</lastBuildDate>
+    
+	<atom:link href="https://uswitch.github.io/codef-syllabus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Showcase</title>
+      <link>https://uswitch.github.io/codef-syllabus/lesson-5/showcase/</link>
+      <pubDate>Wed, 10 Jun 2020 15:50:16 +0100</pubDate>
+      
+      <guid>https://uswitch.github.io/codef-syllabus/lesson-5/showcase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS</title>
+      <link>https://uswitch.github.io/codef-syllabus/lesson-4/css/</link>
+      <pubDate>Wed, 10 Jun 2020 15:50:00 +0100</pubDate>
+      
+      <guid>https://uswitch.github.io/codef-syllabus/lesson-4/css/</guid>
+      <description>By now, we&amp;rsquo;ve
+ made a basic site made some content for it published it to the internets at large learned about templates  In this final lesson we&amp;rsquo;ll talk about how you can change the look of your site.
+Modern web pages are styled by something called CSS, or Cascading Style Sheets. We won&amp;rsquo;t cover the &amp;ldquo;cascading&amp;rdquo; aspect here, but we&amp;rsquo;ll give you a basic crash course in styling your website.</description>
+    </item>
+    
+    <item>
+      <title>How Themes Work</title>
+      <link>https://uswitch.github.io/codef-syllabus/lesson-4/themes/</link>
+      <pubDate>Wed, 10 Jun 2020 15:49:55 +0100</pubDate>
+      
+      <guid>https://uswitch.github.io/codef-syllabus/lesson-4/themes/</guid>
+      <description>Hugo themes As you may have come to understand by now, a theme is nothing more than a collection of layouts and some CSS. It usually gets you a good starting point, and you can tweak and customise step by step, but your finished site often looks nothing like the original theme.
 You won&amp;rsquo;t see any actual CSS code in this particular theme.
-This is because Ananke uses a CSS library called Tachyons.</description></item><item><title>Templating &amp; Variables</title><link>https://uswitch.github.io/codef-syllabus/lesson-3/templating/</link><pubDate>Wed, 10 Jun 2020 15:49:27 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-3/templating/</guid><description>Now that we have our basic site up and running, let&amp;rsquo;s look at how we can really make this site our own.
+This is because Ananke uses a CSS library called Tachyons.</description>
+    </item>
+    
+    <item>
+      <title>Templating &amp; Variables</title>
+      <link>https://uswitch.github.io/codef-syllabus/lesson-3/templating/</link>
+      <pubDate>Wed, 10 Jun 2020 15:49:27 +0100</pubDate>
+      
+      <guid>https://uswitch.github.io/codef-syllabus/lesson-3/templating/</guid>
+      <description>Now that we have our basic site up and running, let&amp;rsquo;s look at how we can really make this site our own.
 This is delving into slightly more advanced territory, but everything we&amp;rsquo;ll do is incremental, and if you make a mistake, you can always use Git to revert your changes.
-Layouts &amp;amp; templates The final output of your website is primarily 2 things, HTML, which we covered in our previous lesson, and CSS, which we&amp;rsquo;ll cover in our next lesson.</description></item><item><title>Netlify</title><link>https://uswitch.github.io/codef-syllabus/lesson-3/netlify/</link><pubDate>Wed, 10 Jun 2020 15:49:11 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-3/netlify/</guid><description>Publishing our site We&amp;rsquo;ve done some hard work over the last 2 days, now it&amp;rsquo;s time to show it to the rest of the world.
-Publish a page Before we try to publish anything, we need to tell Hugo that at least some of our content is supposed to show to the wider public. This is managed via the front matter. In each of your content files you&amp;rsquo;ll see a line that says draft: true.</description></item><item><title>HTML</title><link>https://uswitch.github.io/codef-syllabus/lesson-2/html/</link><pubDate>Wed, 10 Jun 2020 15:48:57 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-2/html/</guid><description>We&amp;rsquo;ve made a content file in content/_index.md. Once you start adding content to it, you should see output generated in the public/ folder.
+Layouts &amp;amp; templates The final output of your website is primarily 2 things, HTML, which we covered in our previous lesson, and CSS, which we&amp;rsquo;ll cover in our next lesson.</description>
+    </item>
+    
+    <item>
+      <title>Netlify</title>
+      <link>https://uswitch.github.io/codef-syllabus/lesson-3/netlify/</link>
+      <pubDate>Wed, 10 Jun 2020 15:49:11 +0100</pubDate>
+      
+      <guid>https://uswitch.github.io/codef-syllabus/lesson-3/netlify/</guid>
+      <description>Publishing our site We&amp;rsquo;ve done some hard work over the last 2 days, now it&amp;rsquo;s time to show it to the rest of the world.
+Publish a page Before we try to publish anything, we need to tell Hugo that at least some of our content is supposed to show to the wider public. This is managed via the front matter. In each of your content files you&amp;rsquo;ll see a line that says draft: true.</description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://uswitch.github.io/codef-syllabus/lesson-2/html/</link>
+      <pubDate>Wed, 10 Jun 2020 15:48:57 +0100</pubDate>
+      
+      <guid>https://uswitch.github.io/codef-syllabus/lesson-2/html/</guid>
+      <description>We&amp;rsquo;ve made a content file in content/_index.md. Once you start adding content to it, if you run hugo by itself you should see output generated in the public/ folder.
 If we open one of the .html files in Sublime, we should see some text and lots of angle brackets.
-This looks messy, and it is, becuse this is generated by Hugo. These files are not meant to be read by humans.
-You rarely have to write big files of HTML by hand, it&amp;rsquo;s almost always generated, but it&amp;rsquo;s worth being aware of it.</description></item><item><title>Markdown</title><link>https://uswitch.github.io/codef-syllabus/lesson-2/markdown/</link><pubDate>Wed, 10 Jun 2020 15:48:44 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-2/markdown/</guid><description>Let&amp;rsquo;s make some content Hugo is pretty loose about its expectations, but it does require some structure. That structure somewhat also depends on the theme used, and advanced users can tweak the theme and content locations. We&amp;rsquo;re using the ananke theme, and the constraints are as follows:
-All content lives in the content/ folder All top level content is list pages, i.e., &amp;ldquo;content categories&amp;rdquo;, i.e., folders All 2nd level content is &amp;ldquo;sections&amp;rdquo;, i.</description></item><item><title>New Site</title><link>https://uswitch.github.io/codef-syllabus/lesson-1/new-site/</link><pubDate>Wed, 10 Jun 2020 15:47:47 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-1/new-site/</guid><description>Creating your first website Windows Please create a folder named Sites in C:\Hugo, i.e., when you&amp;rsquo;re done, you should have a structure like C: &amp;gt; Hugo &amp;gt; Sites. There will be 2 folders in C:\Hugo named Sites and bin.
+This looks messy, and it is, becuse this is generated by Hugo. These files are not meant to be read by humans.</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://uswitch.github.io/codef-syllabus/lesson-2/markdown/</link>
+      <pubDate>Wed, 10 Jun 2020 15:48:44 +0100</pubDate>
+      
+      <guid>https://uswitch.github.io/codef-syllabus/lesson-2/markdown/</guid>
+      <description>Let&amp;rsquo;s make some content Hugo is pretty loose about its expectations, but it does require some structure. That structure somewhat also depends on the theme used, and advanced users can tweak the theme and content locations. We&amp;rsquo;re using the ananke theme, and the constraints are as follows:
+ All content lives in the content/ folder All top level content is list pages, i.e., &amp;ldquo;content categories&amp;rdquo;, i.e., folders All 2nd level content is &amp;ldquo;sections&amp;rdquo;, i.</description>
+    </item>
+    
+    <item>
+      <title>New Site</title>
+      <link>https://uswitch.github.io/codef-syllabus/lesson-1/new-site/</link>
+      <pubDate>Wed, 10 Jun 2020 15:47:47 +0100</pubDate>
+      
+      <guid>https://uswitch.github.io/codef-syllabus/lesson-1/new-site/</guid>
+      <description>Creating your first website Windows Please create a folder named Sites in C:\Hugo, i.e., when you&amp;rsquo;re done, you should have a structure like C: &amp;gt; Hugo &amp;gt; Sites. There will be 2 folders in C:\Hugo named Sites and bin.
 Navigate to the newly created Sites folder. Then click the line with the folder list, it should turn editable.
 Type in powershell and press Enter.
-You should see a terminal window appear.</description></item><item><title>Setup</title><link>https://uswitch.github.io/codef-syllabus/lesson-1/setup/</link><pubDate>Wed, 10 Jun 2020 15:45:57 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-1/setup/</guid><description>Where to find this site This is the &amp;ldquo;official&amp;rdquo; course website. All the material we go through will be on this site, as will links to all tools and products used in this course.
-We&amp;rsquo;ve tried to design this course to be open-ended, so that if some of you have the time and desire to explore further, you can. Most topics will have suggestions for extra activities and options to expand, however, none of these will be assumed in further lessons.</description></item></channel></rss>
+You should see a terminal window appear.</description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>https://uswitch.github.io/codef-syllabus/lesson-1/setup/</link>
+      <pubDate>Wed, 10 Jun 2020 15:45:57 +0100</pubDate>
+      
+      <guid>https://uswitch.github.io/codef-syllabus/lesson-1/setup/</guid>
+      <description>Where to find this site This is the &amp;ldquo;official&amp;rdquo; course website. All the material we go through will be on this site, as will links to all tools and products used in this course.
+We&amp;rsquo;ve tried to design this course to be open-ended, so that if some of you have the time and desire to explore further, you can. Most topics will have suggestions for extra activities and options to expand, however, none of these will be assumed in further lessons.</description>
+    </item>
+    
+  </channel>
+</rss>
