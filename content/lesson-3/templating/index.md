@@ -88,20 +88,20 @@ Finally, Hugo has another mechanism to insert HTML into your pages, called [shor
 
 You call a _shortcode_ by using 
 
-    {{ % shortcode-name shortcode-parameters %}}
+    {{ < shortcode-name shortcode-parameters >}}
 
 or 
 
-    {{ % shortcode-name %}} some text in between {{ % /shortocode-name %}}
+    {{ < shortcode-name >}} some text in between {{ < /shortocode-name >}}
 
 if the shortcode requires content inside it, without the space between the `{{` and the `%`.
-Hugo has some [built-in shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes) you can try, e.g., an _Instagram_ one.
+Hugo has some [built-in shortcodes](https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes) you can try, e.g., an Twitter one.
 
 You'd use this in a content file, like `_index.md`, 
 
-    {{ % instagram B6OfP2wBi4C %}}
+    {{ < tweet 1397620473832382465 >}}
 
-{{% instagram B6OfP2wBi4C %}}
+{{< tweet 1397620473832382465 >}}
 
 Same thing, no space in the opening sequence.
 
