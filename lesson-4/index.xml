@@ -1,37 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Lesson 4 on Welcome to CodeF</title>
-    <link>https://uswitch.github.io/codef-syllabus/lesson-4/</link>
-    <description>Recent content in Lesson 4 on Welcome to CodeF</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Wed, 10 Jun 2020 16:40:51 +0100</lastBuildDate>
-    
-	<atom:link href="https://uswitch.github.io/codef-syllabus/lesson-4/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>CSS</title>
-      <link>https://uswitch.github.io/codef-syllabus/lesson-4/css/</link>
-      <pubDate>Wed, 10 Jun 2020 15:50:00 +0100</pubDate>
-      
-      <guid>https://uswitch.github.io/codef-syllabus/lesson-4/css/</guid>
-      <description>By now, we&amp;rsquo;ve
- made a basic site made some content for it published it to the internets at large learned about templates  In this final lesson we&amp;rsquo;ll talk about how you can change the look of your site.
-Modern web pages are styled by something called CSS, or Cascading Style Sheets. We won&amp;rsquo;t cover the &amp;ldquo;cascading&amp;rdquo; aspect here, but we&amp;rsquo;ll give you a basic crash course in styling your website.</description>
-    </item>
-    
-    <item>
-      <title>How Themes Work</title>
-      <link>https://uswitch.github.io/codef-syllabus/lesson-4/themes/</link>
-      <pubDate>Wed, 10 Jun 2020 15:49:55 +0100</pubDate>
-      
-      <guid>https://uswitch.github.io/codef-syllabus/lesson-4/themes/</guid>
-      <description>Hugo themes As you may have come to understand by now, a theme is nothing more than a collection of layouts and some CSS. It usually gets you a good starting point, and you can tweak and customise step by step, but your finished site often looks nothing like the original theme.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lesson 4 on Welcome to CodeF</title><link>https://uswitch.github.io/codef-syllabus/lesson-4/</link><description>Recent content in Lesson 4 on Welcome to CodeF</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Wed, 10 Jun 2020 16:40:51 +0100</lastBuildDate><atom:link href="https://uswitch.github.io/codef-syllabus/lesson-4/index.xml" rel="self" type="application/rss+xml"/><item><title>CSS</title><link>https://uswitch.github.io/codef-syllabus/lesson-4/css/</link><pubDate>Wed, 10 Jun 2020 15:50:00 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-4/css/</guid><description>By now, we&amp;rsquo;ve
+made a basic site made some content for it published it to the internets at large learned about templates In this final lesson we&amp;rsquo;ll talk about how you can change the look of your site.
+Modern web pages are styled by something called CSS, or Cascading Style Sheets. We won&amp;rsquo;t cover the &amp;ldquo;cascading&amp;rdquo; aspect here, but we&amp;rsquo;ll give you a basic crash course in styling your website.</description></item><item><title>How Themes Work</title><link>https://uswitch.github.io/codef-syllabus/lesson-4/themes/</link><pubDate>Wed, 10 Jun 2020 15:49:55 +0100</pubDate><guid>https://uswitch.github.io/codef-syllabus/lesson-4/themes/</guid><description>Hugo themes As you may have come to understand by now, a theme is nothing more than a collection of layouts and some CSS. It usually gets you a good starting point, and you can tweak and customise step by step, but your finished site often looks nothing like the original theme.
 You won&amp;rsquo;t see any actual CSS code in this particular theme.
-This is because Ananke uses a CSS library called Tachyons.</description>
-    </item>
-    
-  </channel>
-</rss>
+This is because Ananke uses a CSS library called Tachyons.</description></item></channel></rss>
