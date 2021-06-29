@@ -5,5 +5,4 @@ draft: false
 ---
 # Things we will cover
 
-- Setting up all necessary accounts
 - Generating a basic website

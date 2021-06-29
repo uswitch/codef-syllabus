@@ -147,7 +147,7 @@ You can insert images by prepending a link with a `!`.
 Like this:
 ![tina](tina.jpg)
 
-Also Tina says hello, you're likely to see her sleeping the day away over my left shoulder.
+Also Tina says hello, she's bound to come say hi in person at some point as well.
 
 ```markdown
 Like this:
