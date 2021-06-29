@@ -9,6 +9,3 @@
 - links to next section and / or top
 - overwrite config.toml
 - Kraken push asks for tracking branch
-
-# fixups
-instagram embed fails
