@@ -40,8 +40,8 @@ Then you'll need to make Hugo executable from a terminal, which is something we'
 
 ![Windows](hugo-5.png)
 
-5. In the `User variables` section, find the row that starts with `PATH` (PATH will be all caps)
-6. Double-click on `PATH`
+5. In the `User variables` section, find the row that starts with `Path`.
+6. Double-click on `Path`
 
 ![Windows](hugo-6.png)
 
