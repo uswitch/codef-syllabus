@@ -63,7 +63,7 @@ Select the `Init` tab. Fill in
 
 Click `Create Repository`.
 
-This should open a window with some blue bubbles, saying `master` and `Initial commit`.
+This should open a window with some blue bubbles, saying `main` and `Initial commit`.
 
 ![Kraken](kraken-3.png)
 
@@ -91,7 +91,7 @@ In GitKraken, find the `Submodules` section on the left side, and click the `+` 
 
 ![Kraken](kraken-7.png)
 
-Input `https://github.com/budparr/gohugo-theme-ananke.git` for `Remote URL` and `themes/ananke` for `Name/Path`.
+Input `https://github.com/theNewDynamic/gohugo-theme-ananke.git` for `Remote URL` and `themes/ananke` for `Name/Path`.
 
 ![Kraken](kraken-8.png)
 
@@ -175,7 +175,7 @@ You should now see a new entry in the log with the message you entered.
 ![Kraken](kraken-14.png)
 
 Click the `Push` button in the top row to replicate these changes in Github.
-If it asks about "references" and "remotes", just leave the values default and click `Submit`, it should say `origin / master`.
+If it asks about "references" and "remotes", just leave the values default and click `Submit`, it should say `origin / main`.
 
 # Further reading
 Everything past this point is optional, and these are just some topics for further exploration.
@@ -196,6 +196,6 @@ Hugo has extensive documentation as well. We'll cover the bits needed for us to 
 If you make some content, Hugo uses a format called `markdown`. We'll cover this in our next lesson, but for now -- any text is valid markdown, so you can just type some things up and they should show on your site.
 
 ## Configuration
-Have a play with the values in the configuration. Ananke supports a variety of options, documented on [the project's Github page](https://github.com/budparr/gohugo-theme-ananke/#getting-started).
+Have a play with the values in the configuration. Ananke supports a variety of options, documented on [the project's Github page](https://github.com/theNewDynamic/gohugo-theme-ananke/#getting-started).
 
 For example, you can swap out the background image, change the font, customise the social media links.
