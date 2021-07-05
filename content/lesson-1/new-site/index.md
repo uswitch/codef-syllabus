@@ -109,12 +109,13 @@ You should see Sublime open up a folder structure, listing all the files.
 
 Find and open the `config.toml` file you just created.
 
-We're interested in changing 2 lines here.
+We're interested in changing 3 lines here.
 
 ![Sublime](sublime-1.png)
 
 - we need to change `theme = "gohugo-theme-ananke"` to `theme = "ananke"`
-- and `themesDir = "../.."` to `themesDir = "themes"`
+- `themesDir = "../.."` to `themesDir = "themes"`
+- and 'resourceDir = "../resources"` to `resourceDir = "resources"`
 
 ![Sublime](sublime-2.png)
 
