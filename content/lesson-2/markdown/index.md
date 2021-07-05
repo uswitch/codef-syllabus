@@ -37,6 +37,28 @@ We'll need to open a Terminal window in our site directory again. We did this ye
 - for Windows, go to your site's folder in `File Explorer`, click the bar at the top with the folder names, type in `powershell`, press Enter
 - for Mac, use your launcher, Cmd+Space, type `Terminal`, press Enter, type in `cd ~/Sites/my-codef-site`
 
+### Sidetrip to get rid of France
+
+If you open your `config.toml` file, you'll see a bit in there that deals with languages.
+
+It says
+
+```
+[languages]
+  [languages.en]
+    title = "My blog"
+    weight = 1
+    contentDir = "content/en"
+  [languages.fr]
+    title = "Mon blogue"
+    weight = 2
+    contentDir = "content/fr"
+```
+
+We're going to delete that **for now**, because we assume you're making your site single-language only. Hugo handles multiple languages just fine, but it's a layer of complexity we don't want to be dealing with during this intro to making content, so just remove that entire section of configuration.
+
+### Back to our regular programming
+
 Now type in
 
 ```
