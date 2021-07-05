@@ -48,7 +48,7 @@ This should take you to the final screen with some settings.
 
 ![Netlify](netlify-4.png)
 
-These can be left as is. Click the `Show advanced` button and then click the `New variable` button. Tell Netlify to use the latest version of Hugo by adding `HUGO_VERSION` as `0.73.0`
+These can be left as is. Click the `Show advanced` button and then click the `New variable` button. Tell Netlify to use the latest version of Hugo by adding `HUGO_VERSION` as `0.84.4`
 
 Click the `Deploy site` button at the bottom.
 
@@ -74,6 +74,12 @@ In a moment you'll see Netlify pick up the changes you pushed, a new entry will 
 You can pretty much forget about Netlify at this point, any time you `Push` your changes to Github, Netlify will pick it up from there and publish everything to your website.
 
 ### I want a nice name for it
-We've skipped giving your site a nice name for now, because that involves spending money. You're looking for something called a "domain name". Options for getting one include paying Netlify, or buying one from provider, called a "registrar". A popular and friendly choice is [Namecheap](https://www.namecheap.com/), another popular option is [GoDaddy](https://uk.godaddy.com/) though they've historically had some security issues, or signing up for [Amazon Web Services](https://aws.amazon.com/free/).
+We've skipped giving your site a nice name for now, because that involves spending money. You're looking for something called a "domain name". Options for getting one include paying Netlify, or buying one from provider, called a "registrar". Two popular and friendly choices are 
+- [Namecheap](https://www.namecheap.com/)
+- [Google Domains](https://domains.google.com/registrar/) 
 
-A .com domain costs about £7 per year, prices vary for others like .io or .london and can be between £2 and £100. If you would like help setting one up, we're happy to assist, but this is absolutely not necessary for this course.
+If you have an Amazon Web Services account already, their offering, Route 53, has domain management built-in, but it's all just [Gandi](https://www.gandi.net/en-GB) behind the scenes (also a good provider).
+
+A popular option you _don't_ want is GoDaddy, they've had some serious security issues historically and security is one of the top things you want in a domain name.
+
+A .com domain costs about £10 per year, prices vary for others like .io or .london and can be between £2 and £100. If you would like help setting one up, we're happy to assist, but this is absolutely not necessary for this course.
