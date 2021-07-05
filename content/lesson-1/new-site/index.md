@@ -115,7 +115,7 @@ We're interested in changing 3 lines here.
 
 - we need to change `theme = "gohugo-theme-ananke"` to `theme = "ananke"`
 - `themesDir = "../.."` to `themesDir = "themes"`
-- and 'resourceDir = "../resources"` to `resourceDir = "resources"`
+- and `resourceDir = "../resources"` to `resourceDir = "resources"`
 
 ![Sublime](sublime-2.png)
 
